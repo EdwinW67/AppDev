@@ -3,12 +3,11 @@ package com.example.appdev;
 public class Rekenen {
 
     int getal1, getal2;
-    int resultaat;
 
-    public Rekenen(int getal1, int getal2, int resultaat) {
+    public Rekenen(int getal1, int getal2) {
         this.getal1 = getal1;
         this.getal2 = getal2;
-        this.resultaat = resultaat;
+
     }
 
     public Rekenen() {
@@ -30,16 +29,8 @@ public class Rekenen {
         this.getal2 = getal2;
     }
 
-    public int getResultaat() {
-        return resultaat;
-    }
-
-    public void setResultaat(int resultaat) {
-        this.resultaat = resultaat;
-    }
-
     public int opTellen (int getal1, int getal2) {
 
-        return 0;
+        return getal1+getal2;
     }
 }
