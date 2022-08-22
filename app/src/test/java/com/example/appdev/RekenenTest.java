@@ -6,30 +6,7 @@ import org.junit.Test;
 
 public class RekenenTest {
 
-    /*@Test
-    public void getGetal1() {
-    }
 
-    @Test
-    public void setGetal1() {
-    }
-
-    @Test
-    public void getGetal2() {
-    }
-
-    @Test
-    public void setGetal2() {
-    }
-
-    @Test
-    public void getResultaat() {
-    }
-
-    @Test
-    public void setResultaat() {
-    }
-*/
     @Test
     public void opTellen() {
 

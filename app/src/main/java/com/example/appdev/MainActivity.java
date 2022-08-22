@@ -24,10 +24,11 @@ public class MainActivity extends AppCompatActivity {
         btn_optellen = findViewById(R.id.btn_optellen);
 
         btn_optellen.setOnClickListener(view -> {
-// TODO: 2-2-2022 wat gaat de button doen?  
+
+            // TODO: 2-2-2022 wat gaat de button doen?
             // TODO: 2-2-2022 aanroepen rekenen class 
             // TODO: 2-2-2022 presenteren uitkomst 
-            // TODO: 2-2-2022 toevoegen extra button (vermenigvuldigen) en TDD toepassen 
+            // TODO: 2-2-2022 toevoegen extra button (vermenigvuldigen) en TDD toepassen
 
 
         });
