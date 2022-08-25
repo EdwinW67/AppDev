@@ -29,8 +29,7 @@ public class Rekenen {
         this.getal2 = getal2;
     }
 
-    public int opTellen (int getal1, int getal2) {
-
-        return getal1+getal2;
+    public int opTellen() {
+        return this.getal1+this.getal2;
     }
 }

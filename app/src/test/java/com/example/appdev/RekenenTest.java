@@ -17,7 +17,7 @@ public class RekenenTest {
         Rekenen reken = new Rekenen(  );
         reken.setGetal1(test1);
         reken.setGetal2(test2);
-        int resultaat = reken.opTellen(reken.getGetal1( ), reken.getGetal2( ));
+        int resultaat = reken.opTellen();
         assertEquals(resultaat, verwacht);
 
     }
