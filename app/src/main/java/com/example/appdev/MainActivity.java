@@ -3,8 +3,6 @@ package com.example.appdev;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -38,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
             tv_resultaat.setText(String.valueOf(uitkomst));
             tv_resultaat.setTextSize(30);
 
-
-            // TODO: 2-2-2022 presenteren uitkomst 
             // TODO: 2-2-2022 toevoegen extra button (vermenigvuldigen) en TDD toepassen
 
 
